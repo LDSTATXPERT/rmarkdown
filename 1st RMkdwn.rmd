@@ -2,7 +2,7 @@
 title: "First RMarkdown file"
 author: "Laurent Denis"
 date: "05/06/2020"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -17,6 +17,7 @@ When you click the **Knit** button a document will be generated that includes bo
 
 ```{r cars}
 summary(cars)
+cars
 ```
 
 ## Including Plots
